@@ -1,0 +1,70 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #365496;
+    color: #fff;
+    padding: 60px 0;
+    
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    
+    
+}
+
+.container h1{
+text-align: center;
+}
+header h1 {
+    float: left;
+}
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+    text-align: center;
+    background-color: #d3d7fc; 
+  border-radius: 5px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px; 
+  padding: 10px; 
+}
+
+section p {
+    text-align: center;
+}
+
+/* Style the footer */
+footer {
+    background-color: #365496;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
